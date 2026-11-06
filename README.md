@@ -1,72 +1,66 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Matin Wazir Ahmad — Graduate Researcher, Data Science, Shimane University" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:1F6FEB&height=150&text=Matin%20Wazir%20Ahmad&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=Graduate%20Researcher%20%C2%B7%20Data%20Science%20%C2%B7%20Shimane%20University&descSize=15&descAlignY=68" width="100%" alt="Matin Wazir Ahmad" />
+<p align="center">
+  <a href="mailto:matinwazirahmad@gmail.com"><img src="https://img.shields.io/badge/Email-0E3338?style=for-the-badge&logo=gmail&logoColor=91DA73" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0E3338?style=for-the-badge&logo=linkedin&logoColor=91DA73" alt="LinkedIn" /></a>
+  <a href="https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"><img src="https://img.shields.io/badge/Scholar-0E3338?style=for-the-badge&logo=googlescholar&logoColor=91DA73" alt="Google Scholar" /></a>
+  <a href="https://orcid.org/YOUR-ORCID"><img src="https://img.shields.io/badge/ORCID-0E3338?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
+</p>
 
-**Few-shot learning · Vision-language models · Semi-supervised computer vision**
+<br />
 
-<a href="mailto:matinwazirahmad@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"><img src="https://img.shields.io/badge/Google%20Scholar-0D1117?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
-<a href="https://orcid.org/YOUR-ORCID"><img src="https://img.shields.io/badge/ORCID-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
+## About
 
-</div>
+I'm a master's student in **Data Science** at **Shimane University, Japan**, researching **few-shot image classification** — models that generalize from only a handful of labeled examples.
 
----
+My current work applies **CLIP (ViT-B/32)** embeddings and **Prototypical Networks** to **seagrass species recognition**, and explores **teacher–student self-training** with pseudo-labels to learn from unlabeled data.
 
-### About
+<br />
 
-I am a master's student in **Data Science** at **Shimane University, Japan** (Graduate School of Natural Science and Technology, Intelligent Information Design course).
+## Selected work
 
-My research focuses on **few-shot image classification**: building models that generalize from only a handful of labeled examples. I currently work on **seagrass species recognition** using **CLIP (ViT-B/32)** embeddings and **Prototypical Networks**, and on **teacher–student self-training** that uses pseudo-labels to learn from unlabeled data.
+<p align="center">
+  <a href="https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity"><img src="./assets/card-one-step-halt.svg" width="49%" alt="One-Step HALT" /></a>
+  <a href="https://github.com/WazirAhmadMatin/nihongo-app"><img src="./assets/card-nihongo-app.svg" width="49%" alt="nihongo-app" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/WazirAhmadMatin/chair-sus-survey"><img src="./assets/card-chair-sus-survey.svg" width="49%" alt="chair-sus-survey" /></a>
+</p>
 
-### Research interests
+<br />
 
-`Few-shot & meta-learning` `Vision-language models` `Self-training / pseudo-labeling` `Computer vision for ecology`
+## Publications
 
-### Publications
+> **One-Step HALT with Dissimilarity for Few-Shot Seagrass Classification**<br />
+> M. W. Ahmad, *et al.* — manuscript under revision · [code](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity)
 
-- **One-Step HALT with Dissimilarity for Few-Shot Seagrass Classification**
-  M. W. Ahmad, et al. — *manuscript under revision*
-  [[Code]](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity)
+<br />
 
-### Selected projects
+## Toolkit
 
-| Project | Summary | Stack |
-|:--|:--|:--|
-| [**One-Step HALT**](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity) | Few-shot seagrass classification on ECU-MSS with CLIP features and a dissimilarity objective | Python · PyTorch · CLIP |
-| [**nihongo-app**](https://github.com/WazirAhmadMatin/nihongo-app) | Web app for JLPT vocabulary and grammar practice | JavaScript · HTML · CSS |
-| [**chair-sus-survey**](https://github.com/WazirAhmadMatin/chair-sus-survey) | Usability-testing survey based on the System Usability Scale (SUS) | HTML · JavaScript |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,anaconda,js,html,css,git,github,linux,vscode&theme=dark" alt="Toolkit" />
+</p>
 
-### Technical skills
+<br />
 
-| Area | Tools |
-|:--|:--|
-| Machine learning | PyTorch · scikit-learn · CLIP · NumPy · pandas |
-| Programming | Python · JavaScript · HTML/CSS |
-| Workflow | Git · Jupyter · Linux · VS Code |
-
-### Education
+## Education
 
 | | | |
-|:--|:--|:--|
-| **M.Sc. Data Science** | Shimane University, Japan | 2025 – present |
-| **B.Sc. Computer Science** (Software Engineering) | Herat University | 2017 – 2021 |
+|:--|:--|--:|
+| **M.Sc. Data Science** · Intelligent Information Design | Shimane University, Japan | 2025 – present |
+| **B.Sc. Computer Science** · Software Engineering | Herat University | 2017 – 2021 |
 
-### Languages
-
-English (professional) · Japanese (studying, JLPT N4 in progress)
-
----
-
-<details>
-<summary><b>GitHub activity</b></summary>
 <br />
+
+## Activity
+
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Profile details" />
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Contributions" />
 </p>
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="165" alt="Stats" />
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" height="165" alt="Repos per language" />
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="165" alt="Most commit language" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="Stats" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Most commit language" />
 </p>
-</details>
