@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#021C25"/><stop offset="0.55" stop-color="#091E27"/><stop offset="1" stop-color="#022C22"/></linearGradient>
+<linearGradient id="au" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#165A54" stop-opacity="0"/><stop offset="0.4" stop-color="#69B437"/><stop offset="0.7" stop-color="#91DA73"/><stop offset="1" stop-color="#165A54" stop-opacity="0"/></linearGradient>
+<filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+<radialGradient id="glow" cx="0.78" cy="0.5" r="0.45"><stop offset="0" stop-color="#053A3D" stop-opacity="0.9"/><stop offset="1" stop-color="#053A3D" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#0E3338" opacity="0.9"/></pattern>
+<style>
+.p{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.p2{animation-delay:1s}.p3{animation-delay:2s}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.35)}}
+.a{animation:sway 8s ease-in-out infinite}.a2{animation-delay:-4s}
+@keyframes sway{0%,100%{opacity:.35}50%{opacity:.6}}
+.q{animation:dash 2.5s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-20}}
+.f{animation:fade 1.2s ease-out both}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style></defs>
+<rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+<rect width="1280" height="320" rx="16" fill="url(#dots)"/>
+<rect width="1280" height="320" rx="16" fill="url(#glow)"/>
+<clipPath id="c"><rect width="1280" height="320" rx="16"/></clipPath><g clip-path="url(#c)" filter="url(#blur)">
+<path class="a" d="M520 -20 C700 120 820 40 980 130 S1220 90 1320 -10 L1320 40 C1200 140 1040 190 960 170 S700 170 520 30Z" fill="url(#au)" opacity="0.45"/>
+<path class="a a2" d="M640 340 C780 230 900 280 1040 220 S1240 250 1320 200 L1320 260 C1200 300 1060 290 980 300 S760 330 640 360Z" fill="url(#au)" opacity="0.3"/>
+</g>
+<line x1="915.9" y1="132.6" x2="930" y2="110" stroke="#91DA73" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="915.9" cy="132.6" r="4.5" fill="#91DA73" fill-opacity="0.85"/>
+<line x1="912.7" y1="90.7" x2="930" y2="110" stroke="#91DA73" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="912.7" cy="90.7" r="4.5" fill="#91DA73" fill-opacity="0.85"/>
+<line x1="894.2" y1="103.4" x2="930" y2="110" stroke="#91DA73" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="894.2" cy="103.4" r="4.5" fill="#91DA73" fill-opacity="0.85"/>
+<line x1="967.5" y1="121.5" x2="930" y2="110" stroke="#91DA73" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="967.5" cy="121.5" r="4.5" fill="#91DA73" fill-opacity="0.85"/>
+<line x1="967.3" y1="117.2" x2="930" y2="110" stroke="#91DA73" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="967.3" cy="117.2" r="4.5" fill="#91DA73" fill-opacity="0.85"/>
+<circle class="p p1" cx="930" cy="110" r="16" fill="none" stroke="#91DA73" stroke-width="1.5"/>
+<rect x="923" y="103" width="14" height="14" rx="3" transform="rotate(45 930 110)" fill="#91DA73"/>
+<line x1="1137.3" y1="160.3" x2="1110" y2="150" stroke="#69B437" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1137.3" cy="160.3" r="4.5" fill="#69B437" fill-opacity="0.85"/>
+<line x1="1067.4" y1="167.5" x2="1110" y2="150" stroke="#69B437" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1067.4" cy="167.5" r="4.5" fill="#69B437" fill-opacity="0.85"/>
+<line x1="1133.8" y1="168.7" x2="1110" y2="150" stroke="#69B437" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1133.8" cy="168.7" r="4.5" fill="#69B437" fill-opacity="0.85"/>
+<line x1="1074.7" y1="120.9" x2="1110" y2="150" stroke="#69B437" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1074.7" cy="120.9" r="4.5" fill="#69B437" fill-opacity="0.85"/>
+<line x1="1076.8" y1="136.0" x2="1110" y2="150" stroke="#69B437" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1076.8" cy="136.0" r="4.5" fill="#69B437" fill-opacity="0.85"/>
+<circle class="p p2" cx="1110" cy="150" r="16" fill="none" stroke="#69B437" stroke-width="1.5"/>
+<rect x="1103" y="143" width="14" height="14" rx="3" transform="rotate(45 1110 150)" fill="#69B437"/>
+<line x1="1018.8" y1="231.5" x2="990" y2="235" stroke="#3E9A6E" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1018.8" cy="231.5" r="4.5" fill="#3E9A6E" fill-opacity="0.85"/>
+<line x1="1012.0" y1="213.3" x2="990" y2="235" stroke="#3E9A6E" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1012.0" cy="213.3" r="4.5" fill="#3E9A6E" fill-opacity="0.85"/>
+<line x1="1009.0" y1="254.4" x2="990" y2="235" stroke="#3E9A6E" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1009.0" cy="254.4" r="4.5" fill="#3E9A6E" fill-opacity="0.85"/>
+<line x1="972.9" y1="270.5" x2="990" y2="235" stroke="#3E9A6E" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="972.9" cy="270.5" r="4.5" fill="#3E9A6E" fill-opacity="0.85"/>
+<line x1="1007.7" y1="265.4" x2="990" y2="235" stroke="#3E9A6E" stroke-opacity="0.25" stroke-width="1"/>
+<circle cx="1007.7" cy="265.4" r="4.5" fill="#3E9A6E" fill-opacity="0.85"/>
+<circle class="p p3" cx="990" cy="235" r="16" fill="none" stroke="#3E9A6E" stroke-width="1.5"/>
+<rect x="983" y="228" width="14" height="14" rx="3" transform="rotate(45 990 235)" fill="#3E9A6E"/>
+<line class="q" x1="1050" y1="70" x2="930" y2="110" stroke="#D6EFE3" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="5 5"/>
+<circle cx="1050" cy="70" r="6" fill="#021C25" stroke="#D6EFE3" stroke-width="2"/>
+<text x="1062" y="74" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#9FC7B8">query</text>
+<text x="1180" y="296" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#6F9A8C">◆ class prototypes · ● 5-shot support</text>
+<g class="f">
+<rect x="64" y="62" width="4" height="96" rx="2" fill="#69B437"/>
+<text x="88" y="104" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="#F0F6FC">Matin Wazir Ahmad</text>
+<text x="88" y="146" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9FC7B8">Graduate Researcher · Data Science · Shimane University</text>
+<rect x="88" y="186" width="174" height="34" rx="17" fill="#0E3338" stroke="#165A54"/>
+<text x="175" y="208" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">Few-shot Learning</text>
+<rect x="272.2" y="186" width="217" height="34" rx="17" fill="#0E3338" stroke="#165A54"/>
+<text x="381" y="208" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">Vision-Language Models</text>
+<rect x="499.4" y="186" width="140" height="34" rx="17" fill="#0E3338" stroke="#165A54"/>
+<text x="569" y="208" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">Self-training</text>
+<rect x="649.2" y="186" width="157" height="34" rx="17" fill="#0E3338" stroke="#165A54"/>
+<text x="728" y="208" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">Computer Vision</text>
+<text x="88" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#6F9A8C">📍 Matsue, Japan</text>
+</g></svg>

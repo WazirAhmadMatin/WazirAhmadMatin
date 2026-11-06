@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="170" viewBox="0 0 420 170">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#091E27"/><stop offset="1" stop-color="#053A3D"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="419" height="169" rx="12" fill="url(#g)" stroke="#165A54"/>
+<rect x="0.5" y="0.5" width="419" height="4" rx="2" fill="#91DA73"/>
+<path d="M24 30h10l3 3h11v15H24z" fill="none" stroke="#69B437" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="58" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#91DA73">One-Step HALT</text>
+<rect x="320" y="28" width="76" height="22" rx="11" fill="none" stroke="#165A54"/>
+<text x="358.0" y="43" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" fill="#9FC7B8">Research</text>
+<text x="24" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">Few-shot seagrass classification on ECU-MSS with</text>
+<text x="24" y="103" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#D6EFE3">CLIP features and a dissimilarity objective.</text>
+<circle cx="30" cy="143" r="6" fill="#3572A5"/>
+<text x="41" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#9FC7B8">Python</text>
+<circle cx="111.0" cy="143" r="6" fill="#EE4C2C"/>
+<text x="122.0" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#9FC7B8">PyTorch</text>
+<circle cx="199.5" cy="143" r="6" fill="#A371F7"/>
+<text x="210.5" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#9FC7B8">CLIP</text>
+</svg>
