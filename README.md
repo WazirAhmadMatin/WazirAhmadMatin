@@ -1,113 +1,72 @@
-<!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=200&section=header&text=Matin%20Wazir%20Ahmad&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Data%20Science%20MSc%20%C2%B7%20Few-shot%20Learning%20%C2%B7%20Vision-Language%20Models&descSize=16&descAlignY=58&animation=fadeIn" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:1F6FEB&height=150&text=Matin%20Wazir%20Ahmad&fontSize=40&fontColor=ffffff&fontAlignY=42&desc=Graduate%20Researcher%20%C2%B7%20Data%20Science%20%C2%B7%20Shimane%20University&descSize=15&descAlignY=68" width="100%" alt="Matin Wazir Ahmad" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Learning+from+only+a+few+labeled+examples;CLIP+%C2%B7+Prototypical+Networks+%C2%B7+Self-training;Graduate+researcher+%40+Shimane+University%2C+Japan" alt="Typing intro" />
+**Few-shot learning · Vision-language models · Semi-supervised computer vision**
 
-<p>
-  <a href="mailto:matinwazirahmad@gmail.com"><img src="https://img.shields.io/badge/Email-matinwazirahmad%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/Matsue%2C%20Japan-555?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
-</p>
+<a href="mailto:matinwazirahmad@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"><img src="https://img.shields.io/badge/Google%20Scholar-0D1117?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+<a href="https://orcid.org/YOUR-ORCID"><img src="https://img.shields.io/badge/ORCID-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
 
 </div>
 
-<!-- ===================== ABOUT ===================== -->
-## 👨‍💻 About
+---
 
-I'm a **Data Science master's student at Shimane University** (Graduate School of Natural Science and Technology), working on **few-shot image classification** — building models that perform well when only a handful of labeled examples exist.
+### About
 
-My research applies **CLIP (ViT-B/32)** and **Prototypical Networks** to **seagrass species recognition**, and explores **teacher–student self-training** with pseudo-labels to make the most of unlabeled data.
+I am a master's student in **Data Science** at **Shimane University, Japan** (Graduate School of Natural Science and Technology, Intelligent Information Design course).
 
-<table>
-<tr>
-<td valign="top" width="50%">
+My research focuses on **few-shot image classification**: building models that generalize from only a handful of labeled examples. I currently work on **seagrass species recognition** using **CLIP (ViT-B/32)** embeddings and **Prototypical Networks**, and on **teacher–student self-training** that uses pseudo-labels to learn from unlabeled data.
 
-**🔬 Research interests**
-- Few-shot & meta-learning
-- Vision-language models (CLIP)
-- Semi-supervised / self-training
-- Applied computer vision for ecology
+### Research interests
 
-</td>
-<td valign="top" width="50%">
+`Few-shot & meta-learning` `Vision-language models` `Self-training / pseudo-labeling` `Computer vision for ecology`
 
-**📌 Currently**
-- 📝 Revising a paper on One-Step HALT for few-shot seagrass classification
-- 🧪 Experimenting with ProtoNet teacher–student pipelines
-- 🇯🇵 Studying Japanese (JLPT N4)
+### Publications
 
-</td>
-</tr>
-</table>
+- **One-Step HALT with Dissimilarity for Few-Shot Seagrass Classification**
+  M. W. Ahmad, et al. — *manuscript under revision*
+  [[Code]](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity)
 
-<!-- ===================== PROJECTS ===================== -->
-## 🚀 Featured work
+### Selected projects
 
-<table>
-<tr>
-<td width="33%" valign="top">
+| Project | Summary | Stack |
+|:--|:--|:--|
+| [**One-Step HALT**](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity) | Few-shot seagrass classification on ECU-MSS with CLIP features and a dissimilarity objective | Python · PyTorch · CLIP |
+| [**nihongo-app**](https://github.com/WazirAhmadMatin/nihongo-app) | Web app for JLPT vocabulary and grammar practice | JavaScript · HTML · CSS |
+| [**chair-sus-survey**](https://github.com/WazirAhmadMatin/chair-sus-survey) | Usability-testing survey based on the System Usability Scale (SUS) | HTML · JavaScript |
 
-### [One-Step HALT](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity)
-Few-shot seagrass classification on **ECU-MSS** using CLIP features with a dissimilarity-based objective.
+### Technical skills
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+| Area | Tools |
+|:--|:--|
+| Machine learning | PyTorch · scikit-learn · CLIP · NumPy · pandas |
+| Programming | Python · JavaScript · HTML/CSS |
+| Workflow | Git · Jupyter · Linux · VS Code |
 
-</td>
-<td width="33%" valign="top">
+### Education
 
-### [nihongo-app](https://github.com/WazirAhmadMatin/nihongo-app)
-A web app for practicing Japanese vocabulary and grammar for the JLPT.
+| | | |
+|:--|:--|:--|
+| **M.Sc. Data Science** | Shimane University, Japan | 2025 – present |
+| **B.Sc. Computer Science** (Software Engineering) | Herat University | 2017 – 2021 |
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+### Languages
 
-</td>
-<td width="33%" valign="top">
+English (professional) · Japanese (studying, JLPT N4 in progress)
 
-### [chair-sus-survey](https://github.com/WazirAhmadMatin/chair-sus-survey)
-A usability-testing survey built on the **System Usability Scale (SUS)**.
+---
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-</td>
-</tr>
-</table>
-
-<!-- ===================== STACK ===================== -->
-## 🛠️ Tech stack
-
+<details>
+<summary><b>GitHub activity</b></summary>
+<br />
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,anaconda,js,html,css,git,github,vscode,linux&perline=11&theme=dark" alt="Tech stack" />
-</p>
-
-<!-- ===================== EDUCATION ===================== -->
-## 🎓 Education
-
-| Degree | Institution | Years |
-|---|---|---|
-| **MSc, Data Science** — Intelligent Information Design | Shimane University, Japan | 2025 – present |
-| **BSc, Computer Science** — Software Engineering | Herat University | 2017 – 2021 |
-
-<!-- ===================== STATS ===================== -->
-## 📊 GitHub activity
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details" />
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Profile details" />
 </p>
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="170" alt="GitHub stats" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="170" alt="Repos per language" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="170" alt="Most commit language" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="165" alt="Stats" />
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" height="165" alt="Repos per language" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="165" alt="Most commit language" />
 </p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=WazirAhmadMatin&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<!-- ===================== FOOTER ===================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=110&section=footer" width="100%" alt="Footer" />
+</details>
