@@ -33,6 +33,9 @@ My current work applies **CLIP (ViT-B/32)** embeddings and **Prototypical Networ
 
 ## Publications
 
+> **A Noise-Augmented Semi-Supervised Few-Shot Framework for Underwater Seagrass Classification**<br />
+> M. W. Ahmad, *et al.* — FMLDS 2026, Kobe, Japan · [slides](./fmlds2026/presentation/FMLDS2026_Seagrass_Presentation.pptx) · [methodology video](./fmlds2026/video/Seagrass_Methodology_Video.mp4)
+
 > **One-Step HALT with Dissimilarity for Few-Shot Seagrass Classification**<br />
 > M. W. Ahmad, *et al.* — manuscript under revision · [code](https://github.com/WazirAhmadMatin/One-Step-HALT-with-Dissimilarity)
 
